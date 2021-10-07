@@ -2,17 +2,16 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.3.
 
-## Development server
+## Official Documentation
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Link: `https://ngrx.io/`
 
-## NgRx Packages 
+## NgRx Packages Installation
     npm i @ngrx/store @ngrx/effects @ngrx/store-devtools @ngrx/schematics --save
     or
     npm install @ngrx/{store,effects, entity, store-devtools, schematics}
 
     ng add @ngrx/schematics                                                         // For default value in Angular.json
-___________________________________________________________________________________________________________________________________________________________________
 
 
 ## Folder Structure
@@ -31,7 +30,6 @@ ________________________________________________________________________________
                             
                         >> reducers (Folder) 
                             -> All reducers files
-___________________________________________________________________________________________________________________________________________________________________
 
 
 ## Angular Setup 
