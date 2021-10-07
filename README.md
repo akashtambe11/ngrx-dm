@@ -29,18 +29,19 @@ ________________________________________________________________________________
 
 
 ## Angular Setup 
-#### 1. Store: (Main Store: Contains all reducers file)
+#### 1. Store: (Main Store: Contains all reducers file) 
     ng generate store State --root --state-path store --module app.module.ts        // Direct Store Folder => Second store is folder name
     ng generate store State --root --module app.module.ts                           // In root folder
 
-#### 2. Central Effects: (Only use when multiple effects exist)
+#### 2. Central Effects: (Only use when multiple effects exist) 
         2.1. Make app.effects.ts file in same store folder
         2.2. Import upcomming effets in it
                 2.2.1 Code:
-                            ```
-                            import { UserEffects } from './effects/user.effects';
-                            export const AppEffects = [UserEffects];
-                            ```
+                           |-------------------------------------------------------|
+                           | import { UserEffects } from './effects/user.effects'; |
+                           | export const AppEffects = [UserEffects];              |
+                           |-------------------------------------------------------|
+                            
         2.3. Import app.effects.ts file in app.module.ts 
                 2.3.1. Add "EffectsModule.forRoot(AppEffects);" in imports array
 
