@@ -6,7 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-##NgRx Packages =====>
+## NgRx Packages =====>
 npm i @ngrx/store @ngrx/effects @ngrx/store-devtools @ngrx/schematics --save
 or
 npm install @ngrx/{store,effects, entity, store-devtools, schematics}
@@ -15,7 +15,7 @@ ng add @ngrx/schematics                                                         
 ___________________________________________________________________________________________________________________________________________________________________
 
 
-##Folder Structure ==>
+## Folder Structure ==>
 src >> app >> store (Folder) 
                     >> index.ts
                     >> app.reducers.ts 
@@ -28,7 +28,7 @@ src >> app >> store (Folder)
 ___________________________________________________________________________________________________________________________________________________________________
 
 
-##Angular Setup =====>
+## Angular Setup =====>
 1. Store: (Main Store: Contains all reducers file)
     ng generate store State --root --state-path store --module app.module.ts        // Direct Store Folder => Second store is folder name
     ng generate store State --root --module app.module.ts                           // In root folder
