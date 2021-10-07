@@ -102,5 +102,8 @@
       }
     }
   },
-  "defaultProject": "angular-redux"
+  "defaultProject": "angular-redux",
+  "cli": {
+    "defaultCollection": "@ngrx/schematics"
+  }
 }
