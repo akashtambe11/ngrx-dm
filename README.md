@@ -29,11 +29,13 @@ ________________________________________________________________________________
 
 
 ## Angular Setup 
-####### 1. Store: (Main Store: Contains all reducers file) 
-    ng generate store State --root --state-path store --module app.module.ts        // Direct Store Folder => Second store is folder name
-    ng generate store State --root --module app.module.ts                           // In root folder
+#### 1. Store: (Main Store: Contains all reducers file) 
+    Command => 
+      ng generate store State --root --state-path store --module app.module.ts        // Direct Store Folder => Second store is folder name
+      ng generate store State --root --module app.module.ts                           // In root folder
 
 #### 2. Central Effects: (Only use when multiple effects exist) 
+     Steps   =>
         2.1. Make app.effects.ts file in same store folder
         2.2. Import upcomming effets in it
                 2.2.1 Code:
@@ -46,19 +48,27 @@ ________________________________________________________________________________
                 2.3.1. Add "EffectsModule.forRoot(AppEffects);" in imports array
 
 #### 3. Action:
-    ng generate action ActionName
+    Command => 
+      ng generate action ActionName
+      
+    Steps   =>
         3.1 What should be the prefix of the action? (Only Press Enter Key)
         3.2 Should we generate success and failure actions? Y
         3.3 Do you want to use the create function? Y
 
 #### 4. Reducer:
-    ng generate reducers ReducerName --reducers ../../store/index.ts                 // To Import new reducers in store/index.js => You should be in root project
-        4.1 Should we add success and failure actions to the reducer? Y
-        4.2 Do you want to use the create function? Y
+    Command => 
+      ng generate reducers ReducerName --reducers ../../store/index.ts                 // To Import new reducers in store/index.js => You should be in root project
+      
+    Steps   =>
+          4.1 Should we add success and failure actions to the reducer? Y
+          4.2 Do you want to use the create function? Y
 
 #### 5. effect:
-    ng generate effect EffectName --root -m app.module.ts                            // If only one effect is exist in project
-    ng generate effect EffectName                                                    // If multple effects are exist in project => Import these effects in app.effects.ts
+    Command => 
+      ng generate effect EffectName --root -m app.module.ts                            // If only one effect is exist in project
+      ng generate effect EffectName                                                    // If multple effects are exist in project => Import these effects in app.effects.ts
 
 #### 6. Selector:
-    ng generate selector SelectorName
+    Command => 
+      ng generate selector SelectorName
