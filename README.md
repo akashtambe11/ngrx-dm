@@ -7,11 +7,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## NgRx Packages 
-npm i @ngrx/store @ngrx/effects @ngrx/store-devtools @ngrx/schematics --save
-or
-npm install @ngrx/{store,effects, entity, store-devtools, schematics}
+    npm i @ngrx/store @ngrx/effects @ngrx/store-devtools @ngrx/schematics --save
+    or
+    npm install @ngrx/{store,effects, entity, store-devtools, schematics}
 
-ng add @ngrx/schematics                                                         // For default value in Angular.json
+    ng add @ngrx/schematics                                                         // For default value in Angular.json
 ___________________________________________________________________________________________________________________________________________________________________
 
 
