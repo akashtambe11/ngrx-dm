@@ -29,7 +29,7 @@ ________________________________________________________________________________
 
 
 ## Angular Setup 
-#### 1. Store: (Main Store: Contains all reducers file) 
+####### 1. Store: (Main Store: Contains all reducers file) 
     ng generate store State --root --state-path store --module app.module.ts        // Direct Store Folder => Second store is folder name
     ng generate store State --root --module app.module.ts                           // In root folder
 
