@@ -16,13 +16,19 @@ ________________________________________________________________________________
 
 
 ## Folder Structure
-    src >> app >> store (Folder) 
+    src 
+      >> app 
+          >> store (Folder) 
                         -> index.ts
+                        
                         -> app.reducers.ts 
+                        
                         >> actions (Folder)        
                             -> All action files
+                            
                         >> effects (Folder) 
                             -> All effect files
+                            
                         >> reducers (Folder) 
                             -> All reducers files
 ___________________________________________________________________________________________________________________________________________________________________
